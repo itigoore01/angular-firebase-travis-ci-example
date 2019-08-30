@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angular-firebase-travis-ci-example",
+      "public": "dist/angular-firebase-travis-ci-example",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

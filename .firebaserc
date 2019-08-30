@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ngx-firebase-travis-ci-example": {
+      "hosting": {
+        "angular-firebase-travis-ci-example": [
+          "ngx-firebase-travis-ci-example"
+        ]
+      }
+    }
+  }
+}

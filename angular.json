@@ -122,8 +122,13 @@
               "devServerTarget": "angular-firebase-travis-ci-example:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-firebase-travis-ci-example"
 }
